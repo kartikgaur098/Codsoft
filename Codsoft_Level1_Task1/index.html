@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik - Developer portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 4, 35);
+            color: white font-family- 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(11, 4, 56)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: hover;
+            color: rgb(110, 110, 232);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            height: 1.2px;
+            margin: 40px 84px;
+            background: rgb(110, 110, 232)
+        }
+
+        .left {
+            font-size: 2rem;
+            color: white;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            width: 34px;
+            font-size: 2.1rem;
+            color: white;
+            margin: 30px 0;
+        }
+
+        .leftSection .button {
+            padding: 80px 0;
+        }
+
+        .leftSection .btn {
+            padding: 10px;
+            background: #1e2167;
+            color: white;
+            cursor: pointer;
+            border: 1px solid white;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+
+        .rightSection {
+            width: 34px;
+            font-size: 1rem;
+            color: white;
+            margin: 10px 0;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(170, 16, 178);
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(170, 16, 178);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            color: white;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .footer h3 {
+            color: white;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            height: 2px;
+            width: 80vw;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 60px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            width: 150px;
+            position: relative;
+            top: 40px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 50px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background: black;
+            height: 180px;
+            margin: 20px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+            color: white;
+        }
+
+        .footer ul {
+            list-style: none;
+            margin: 20px;
+        }
+
+        .footer h3 {
+            margin: 23px;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            color: gray;
+            text-align: center;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kartik's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Kartik</span>
+                <div> and I am a passionate</div>
+                <div><span class="purple">Web Developer</span></div>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+                <div></div>
+            </div>
+            <div class="rightSection">
+                <img src="portfolioimage.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so Far</span>
+            <h1>Work Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="sql.png">
+                    <div class="vertical-title">
+                        SQl Developer(2020-2021)
+                    </div>
+                    <div class="vertical-desc">Gone through the challenges of Databases to dive deep in the consepts of
+                        administration level
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="py.png">
+                    <div class="vertical-title">
+                        Python Developer(2021-2022)
+                    </div>
+                    <div class="vertical-desc">In hands practice of pyhton by creating some entry level projects like
+                        Quizgame,Library Management Systems,Banking Management System and many more.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ds1.png">
+                    <div class="vertical-title">
+                        Data science(2022-2023)
+                    </div>
+                    <div class="vertical-desc">Got the chance to get familiar with the libraries of Python like
+                        Numpy,Scikit-learn, Pandas,Matplotlib and some basic concepts like data Wrangling, Cleaning etc.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html1.png">
+                    <div class="vertical-title">
+                        Frontend developer(2023-2024)
+                    </div>
+                    <div class="vertical-desc">Continuing my journey with HTML,CSS,JavaScript for the Frontend
+                        developing , unlocking new levels of developing by creating static websites.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Learning About </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <li>SQl</li>
+                    <li>DSA</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>DBMS</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-rights">
+            Copyright&#169;kartiksportfolio.com | All rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
